@@ -6,6 +6,7 @@ public class Book {
    String publisher;
    String isbn;
 
+   // book creator with no isbn code
    Book(String title, String author, int releaseDate, int pages, String publisher) {
       this.title = title;
       this.author = author;
@@ -14,11 +15,13 @@ public class Book {
       this.publisher = publisher;
    }
 
+   // book creator with isbn code
    Book(String title, String author, int releaseDate, int pages, String publisher, String isbn) {
       this(title, author, releaseDate, pages, publisher);
       this.isbn = isbn;
    }
 
+   // show book info
    void booksInfo() {
       System.out.println("Tytuł: " + title);
       System.out.println("Autor: " + author);
