@@ -10,6 +10,7 @@ class Library {
         Book book3 = new Book("Kordian", "Juliusz Słowacki", 1895, 194, "Polskija Wydawnica");
         Book book4 = new Book("O dwóch takich co ukradli księżyc", "ks. Jan Twardowski", 2010,
                 423, "Arka Noego", "952377915811");
+		Book book5 = new Book("Harry Potter i Czara Ognia", "J. K. Rowling", 2016, 768, "Media i Rodzina");
 
         // Program core
         System.out.println(appName);
